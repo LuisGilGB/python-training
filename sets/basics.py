@@ -4,6 +4,11 @@ while True:
     i = input('Enter something (enter "break" to exit the loop):')
     if i == 'break':
         break
-    mySet.add(i)
-    print(mySet)
+    if i in mySet:
+        print('Already in the set')
+    else:
+        mySet.add(i)
+        print(mySet)
 print('Exit')
+for el in mySet:
+    print(el)
