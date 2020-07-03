@@ -1,0 +1,8 @@
+n1 = float(input('Enter the first number:'))
+n2 = float(input('Enter the second number:'))
+print('Equals?')
+print(n1 == n2)
+print('Is n1 bigger?')
+print(n1 > n2)
+print('Is n1 smaller?')
+print(n1 < n2)
