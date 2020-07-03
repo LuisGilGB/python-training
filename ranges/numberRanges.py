@@ -1,0 +1,15 @@
+print(list(range(5)))
+print(sum(range(5)))
+print(list(range(0,10)))
+print(sum(range(0,10)))
+print(list(range(1,10)))
+print(sum(range(1,10)))
+print(list(range(0,10,2)))
+print(sum(range(0,10,2)))
+print(list(range(1,10,3)))
+print(sum(range(1,10,3)))
+print(list(range(10,0,-1)))
+
+numbersList = range(3,51,7)
+for n in numbersList:
+    print(n)
